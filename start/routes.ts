@@ -4,5 +4,5 @@ Route.get('/lista', async () => {
   return { hello: 'world' }
 })
 
-Route.post("/register", "AuthController.register")
-Route.post("/login", "AuthController.login")
+Route.post("/Cadastro", "AuthController.register")
+Route.post("/Login", "AuthController.login")
